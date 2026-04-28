@@ -33,7 +33,57 @@ $cotacao=31,88;
 
 }
 
+namespace saude{
 
+function calcularImc($peso, $altura)
+
+returne $peso / ($altura*$altura)
+
+
+function valorIdealAgua($peso)
+returne $peso  * 35
+
+function frequenciaCardiacaMaxima($idade)
+returne $idade - 220
+
+function converterLibrasParaQuilo($libras)
+returne $libra * 0.4536
+
+function calcularCaloriasBasais($peso, $idade, $sexo)
+returne   ($sexo * 0,5019) * $peso) + 692,2
+
+
+
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
+
+
+
+
+}
 
 
 
